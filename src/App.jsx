@@ -29,12 +29,16 @@ function App() {
               src={beratilgin}
               alt="Krásná zahrádka"
               className="aspect-square w-[80%] rounded-lg"
+              width={400}
+              height={400}
             />
             <div className="w-[70%] self-end lg:py-5">
               <img
                 src={theGhazi}
                 alt="Moderní vila"
                 className="aspect-square rounded-lg"
+                width={400}
+                height={400}
               />
             </div>
           </div>
@@ -44,6 +48,8 @@ function App() {
               src={artbovich}
               alt="Moderní interiér jídelny"
               className="aspect-5/6 w-full rounded-lg object-cover"
+              width={500}
+              height={600}
             />
           </div>
         </div>
