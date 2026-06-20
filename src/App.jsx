@@ -14,10 +14,10 @@ function App() {
             harmonie v každém detailu
           </h2>
           <p className="pt-7 pb-8 text-xl leading-relaxed text-gray-800 lg:absolute lg:top-full lg:left-0 lg:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            esse iste odit. Adipisci labore, repellendus accusantium obcaecati
-            saepe exercitationem illo ut dicta earum delectus, dolore nulla,
-            laboriosam neque animi vel!
+            Habitasse enim tellus egestas duis cursus. Non non nam sed id ut
+            varius quis sollicitudin bibendum. Tincidunt pulvinar accumsan
+            aliquet dui placerat nunc lorem. Consectetur nec ipsum porta quis a.
+            In nunc sagittis dolor cursus id posuere fusce tempus aliquam.
           </p>
         </div>
       </div>
