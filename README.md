@@ -1,6 +1,10 @@
 # Simple Design
 
-A simple design implementation built with React 19, Vite, and Tailwind CSS v4.
+A simple design test app implementation built with React 19, Vite, and Tailwind CSS v4.
+
+## Message
+
+I am well aware that using absolute positioning isn't preferable and should be avoided if possible (because they can easily cause overlap), but I didn't come up with solution to avoid the absolute positioning and at the same time keep the code simple and consistent with the design, so I chose to do it the simple way.
 
 ## Tech Stack
 
