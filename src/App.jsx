@@ -5,7 +5,7 @@ import theGhazi from "./assets/the-ghazi.jpg";
 function App() {
   return (
     <section className="max-w-5xl mx-auto p-4 pt-6">
-      <div className="grid lg:grid-cols-2 gap-4 gap-6">
+      <div className="grid lg:grid-cols-2 gap-6">
         <span className="font-medium text-gray-500 uppercase">
           vize projektu
         </span>
@@ -19,26 +19,27 @@ function App() {
           neque animi vel!
         </p>
 
-        <div className="relative w-full grid grid-cols-2 gap-10">
-          <div className="flex flex-col gap-6 pb-5">
-            <div>
-              <img
-                src={beratilgin}
-                alt="Krásná zahrádka"
-                className="w-[80%] aspect-square rounded-lg"
-              />
-            </div>
+        <div className="w-full grid grid-cols-2 gap-5">
+          <div className="flex flex-col gap-6 justify-between pb-4">
+            <img
+              src={beratilgin}
+              alt="Krásná zahrádka"
+              className="w-[80%] aspect-square rounded-lg"
+            />
             <img
               src={theGhazi}
               alt="Moderní vila"
-              className="w-[70%] ml-auto aspect-square object-cover rounded-lg items-end"
+              className="w-[70%] self-end aspect-square rounded-lg"
             />
           </div>
-          <img
-            src={artbovich}
-            alt="Moderní interiér jídelny"
-            className="absolute bottom-0 right-0 w-1/2 aspect-5/6 object-cover rounded-lg"
-          />
+
+          <div className="flex items-end">
+            <img
+              src={artbovich}
+              alt="Moderní interiér jídelny"
+              className="w-full aspect-[5/6] object-cover rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </section>
