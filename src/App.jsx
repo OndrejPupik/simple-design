@@ -4,7 +4,7 @@ import theGhazi from "./assets/the-ghazi.webp";
 
 function App() {
   return (
-    <main className="mx-auto max-w-5xl p-4 pt-2">
+    <main className="mx-auto max-w-5xl p-4 lg:pt-2">
       <div className="lg:flex lg:flex-row">
         <span className="font-medium text-gray-500 uppercase lg:w-21/50 lg:text-xs">
           vize projektu
@@ -22,24 +22,22 @@ function App() {
         </div>
       </div>
 
-      <div className="grid w-full grid-cols-2 gap-5 lg:pt-9">
-        <div className="flex flex-col justify-between gap-6 pb-4 lg:pr-5">
+      <div className="grid w-full grid-cols-2 gap-5 lg:gap-12 lg:pt-9">
+        <div className="flex flex-col justify-between gap-6 pb-4 lg:gap-11 lg:pb-12">
           <img
             src={beratilgin}
             alt="Krásná zahrádka"
             className="aspect-square w-4/5 rounded-lg"
-            width={400}
-            height={400}
+            width={900}
+            height={900}
           />
-          <div className="w-7/10 self-end lg:py-5">
-            <img
-              src={theGhazi}
-              alt="Moderní vila"
-              className="aspect-square rounded-lg"
-              width={400}
-              height={400}
-            />
-          </div>
+          <img
+            src={theGhazi}
+            alt="Moderní vila"
+            className="aspect-square w-7/10 self-end rounded-lg"
+            width={900}
+            height={900}
+          />
         </div>
 
         <div className="flex items-end">
@@ -47,8 +45,8 @@ function App() {
             src={artbovich}
             alt="Moderní interiér jídelny"
             className="aspect-5/6 w-full rounded-lg object-cover"
-            width={500}
-            height={600}
+            width={1000}
+            height={670}
           />
         </div>
       </div>
